@@ -21,7 +21,7 @@ function generate() {
   document.getElementById("display").value = password;
 
   //history of previous passwords
-  document.getElementById("history").innerHTML += password + "<br />";
+  document.getElementById("lastNums").innerHTML += password + "<br />";
 }
 
 //set default length of 10 characters
